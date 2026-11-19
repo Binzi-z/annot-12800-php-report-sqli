@@ -1,0 +1,69 @@
+{
+ "vulns": [
+  {
+   "id": "v00",
+   "sink": "sql_injection",
+   "label": "SQL 注入",
+   "file": "src/Handler00.php",
+   "line": 21,
+   "entry": "Handler00::handle"
+  },
+  {
+   "id": "v01",
+   "sink": "command_injection",
+   "label": "命令注入",
+   "file": "src/Handler01.php",
+   "line": 19,
+   "entry": "Handler01::handle"
+  },
+  {
+   "id": "v02",
+   "sink": "ssrf",
+   "label": "SSRF",
+   "file": "src/Handler03.php",
+   "line": 19,
+   "entry": "Handler03::handle"
+  },
+  {
+   "id": "v03",
+   "sink": "ssrf",
+   "label": "SSRF",
+   "file": "src/Handler05.php",
+   "line": 19,
+   "entry": "Handler05::handle"
+  },
+  {
+   "id": "v04",
+   "sink": "path_traversal",
+   "label": "路径穿越",
+   "file": "src/Handler07.php",
+   "line": 19,
+   "entry": "Handler07::handle"
+  },
+  {
+   "id": "v05",
+   "sink": "command_injection",
+   "label": "命令注入",
+   "file": "src/Handler10.php",
+   "line": 19,
+   "entry": "Handler10::handle"
+  },
+  {
+   "id": "v06",
+   "sink": "path_traversal",
+   "label": "路径穿越",
+   "file": "src/Handler12.php",
+   "line": 19,
+   "entry": "Handler12::handle"
+  },
+  {
+   "id": "v07",
+   "sink": "sql_injection",
+   "label": "SQL 注入",
+   "file": "src/Handler13.php",
+   "line": 21,
+   "entry": "Handler13::handle"
+  }
+ ],
+ "total": 8
+}
